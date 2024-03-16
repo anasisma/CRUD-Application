@@ -126,7 +126,7 @@ while loop == True:
 
     # reset the connection for every loop
     conn.close()
-    conn = psycopg2.connect(database = "A3", user = "postgres", password = "postgres", host = "localhost", port = "5432")
+    conn = psycopg2.connect(database = database, user = user, password = password, host = host, port = port)
     
 
     print()
